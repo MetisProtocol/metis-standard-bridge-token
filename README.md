@@ -35,16 +35,3 @@ deploying "L2StandardERC20" (tx: 0xbf83264ae052f0b3ff08d5b8d1ae17967ababa97798b1
 Done in 5.88s.
 ```
 
-## Verify
-
-get flatten contract code
-
-```
-yarn hardhat flatten
-```
-
-upload your contract code here(replace `YOUR_TOKEN_ADDRESS` to real address)
-
-```
-https://andromeda-explorer.metis.io/address/YOUR_TOKEN_ADDRESS/contracts
-```
