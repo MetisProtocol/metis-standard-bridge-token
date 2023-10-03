@@ -1,4 +1,12 @@
-## Create your L2 standard token for [Metis bridge](https://bridge.metis.io/home)
+## use `L2StandardTokenFactory`
+
+You don't have to use this contract template.
+
+there is already an [L2StandardTokenFactory](https://andromeda-explorer.metis.io/address/0x4200000000000000000000000000000000000012/write-contract#address-tabs) contract, 
+
+you can call the `createStandardL2Token` method with correct parameters to to create an L2 token directly.
+
+## Create your own L2 standard token
 
 A standard bridge token should implement [IL2StandardERC20](./contracts/interfaces/IL2StandardERC20.sol) interface.
 
@@ -34,4 +42,3 @@ l2TokenSymbol EXAMPLE
 deploying "L2StandardERC20" (tx: 0xbf83264ae052f0b3ff08d5b8d1ae17967ababa97798b18aa21450d6f5b88bf94)...: deployed at 0xd064B7c6452408873a7bC3a92144d621247571fD with 17821805 gas
 Done in 5.88s.
 ```
-
