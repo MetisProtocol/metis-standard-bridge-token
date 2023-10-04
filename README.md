@@ -2,9 +2,7 @@
 
 You don't have to use this contract template.
 
-there is already an [L2StandardTokenFactory](https://andromeda-explorer.metis.io/address/0x4200000000000000000000000000000000000012/write-contract#address-tabs) contract, 
-
-you can call the `createStandardL2Token` method with correct parameters to to create an L2 token directly.
+there is already an [L2StandardTokenFactory](https://andromeda-explorer.metis.io/address/0x4200000000000000000000000000000000000012/write-contract#address-tabs) contract, you can call the `createStandardL2Token` method with correct parameters to create an L2 token directly.
 
 ## Create your own L2 standard token
 
